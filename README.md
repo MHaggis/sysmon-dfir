@@ -14,11 +14,13 @@ After installation, load the custom configuration file with the following comman
 Upon installation, Sysmon will begin logging events to the operational event log “C:\Windows\System32\ winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx”.
 
 **Sysmon-a.cfg**
+
 http://www.blacklanternsecurity.com/blog/2016/12/11/sysmon-woes-elasticsearch-and-mitres-attack-matrix/
 
 **Sysmon-b.cfg**
 
 https://github.com/crypsisgroup/Splunkmon/edit/master/sysmon.cfg
+
 http://www.crypsisgroup.com/images/site/CG_WhitePaper_Splunkmon_1216.pdf
 
 
