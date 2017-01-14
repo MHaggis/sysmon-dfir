@@ -4,11 +4,14 @@ Sources, configuration and how to detect evil things utilizing Microsoft Sysmon.
 # Install Sysmon
 
 To install Sysmon, use the following command:
+
     Sysmon.exe -i -h MD5,IMPHASH -n
+
 After installation, load the custom configuration file with the following command:
+
     Sysmon.exe -c sysmon.cfg
-Upon installation, Sysmon will begin logging events to the operational event log “C:\Windows\System32\
-winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx”.
+
+Upon installation, Sysmon will begin logging events to the operational event log “C:\Windows\System32\ winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx”.
 
 **Sysmon-a.cfg**
 http://www.blacklanternsecurity.com/blog/2016/12/11/sysmon-woes-elasticsearch-and-mitres-attack-matrix/
