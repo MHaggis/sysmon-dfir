@@ -31,6 +31,14 @@ https://decentsecurity.com/enterprise/#/sysmon-enterprise-configuration/
 
 https://www.malwarearchaeology.com/logging/
 
+**Additional configs**
+
+Configs are updated frequently
+
+Server Config: https://gist.github.com/Neo23x0/a4b4af9481e01e749409
+
+Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
+
 
 # Resources
 
