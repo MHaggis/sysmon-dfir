@@ -1,0 +1,119 @@
+<Sysmon schemaversion="2.01">
+  <!-- Capture sha1 hashes -->
+  <HashAlgorithms>sha1</HashAlgorithms>
+  <EventFiltering>
+    <!-- Log all drivers except if the signature -->
+    <!-- contains Microsoft or Windows -->
+    <DriverLoad onmatch="exclude">
+      <Signature condition="contains">microsoft</Signature>
+      <Signature condition="contains">windows</Signature>
+    </DriverLoad>
+    <!-- Do not log process termination -->
+    <ProcessTerminate onmatch="include" />
+	<!-- Do not log File Creation Time ID 2 Changes -->
+    <FileCreateTime onmatch="include" />
+    <!-- Do not Log network connection if the image is any of the following -->
+    <NetworkConnect onmatch="exclude">
+      <Image condition="contains">"C:\Windows\System32\svchost.exe"</Image>
+        <SourceIp>239.255.255.250</SourceIp>
+	    <SourceIp>255.255.255.255</SourceIp>
+	  <Image condition="contains">"C:\Windows\System32\svchost.exe"</Image>
+	    <DestinationIp>224.0.0.252</DestinationIp>
+	    <DestinationIp>239.255.255.250</DestinationIp>
+	    <DestinationIp>255.255.255.255</DestinationIp>
+	  <Image condition="contains">"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"</Image>
+	    <DestinationIp condition="begin with">10.</DestinationIp>
+	    <DestinationIp condition="begin with">192.168.</DestinationIp>
+	    <DestinationIp condition="begin with">172.16.</DestinationIp>
+	    <DestinationIp condition="begin with">172.17.</DestinationIp>
+	    <DestinationIp condition="begin with">172.18.</DestinationIp>
+	    <DestinationIp condition="begin with">172.19.</DestinationIp>
+	    <DestinationIp condition="begin with">172.20.</DestinationIp>
+	    <DestinationIp condition="begin with">172.21.</DestinationIp>
+	    <DestinationIp condition="begin with">172.22.</DestinationIp>
+	    <DestinationIp condition="begin with">172.23.</DestinationIp>
+	    <DestinationIp condition="begin with">172.24.</DestinationIp>
+	    <DestinationIp condition="begin with">172.25.</DestinationIp>
+	    <DestinationIp condition="begin with">172.26.</DestinationIp>
+	    <DestinationIp condition="begin with">172.27.</DestinationIp>
+	    <DestinationIp condition="begin with">172.28.</DestinationIp>
+	    <DestinationIp condition="begin with">172.29.</DestinationIp>
+	    <DestinationIp condition="begin with">172.30.</DestinationIp>
+	    <DestinationIp condition="begin with">172.31.</DestinationIp>
+	  <Image condition="contains">"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"</Image>
+	    <DestinationIp condition="begin with">10.</DestinationIp>
+	    <DestinationIp condition="begin with">192.168.</DestinationIp>
+	    <DestinationIp condition="begin with">172.16.</DestinationIp>
+	    <DestinationIp condition="begin with">172.17.</DestinationIp>
+	    <DestinationIp condition="begin with">172.18.</DestinationIp>
+	    <DestinationIp condition="begin with">172.19.</DestinationIp>
+	    <DestinationIp condition="begin with">172.20.</DestinationIp>
+	    <DestinationIp condition="begin with">172.21.</DestinationIp>
+	    <DestinationIp condition="begin with">172.22.</DestinationIp>
+	    <DestinationIp condition="begin with">172.23.</DestinationIp>
+	    <DestinationIp condition="begin with">172.24.</DestinationIp>
+	    <DestinationIp condition="begin with">172.25.</DestinationIp>
+	    <DestinationIp condition="begin with">172.26.</DestinationIp>
+	    <DestinationIp condition="begin with">172.27.</DestinationIp>
+	    <DestinationIp condition="begin with">172.28.</DestinationIp>
+	    <DestinationIp condition="begin with">172.29.</DestinationIp>
+	    <DestinationIp condition="begin with">172.30.</DestinationIp>
+	    <DestinationIp condition="begin with">172.31.</DestinationIp>
+	  <Image condition="contains">whosip.exe</Image>
+        <SourcePort>43</SourcePort>
+    </NetworkConnect>
+	<!--  -->
+	<!--  -->
+	<!-- Exclude Image Loads that are signed ID 7 -->
+    <ImageLoad onmatch="exclude">
+	<Image condition="image">Conhost.exe</Image>
+	<Image condition="image">whosip.exe</Image>
+	<Image condition="image">g2mupdate.exe</Image>
+	<Image condition="image">GoogleUpdate.exe</Image>
+	<Image condition="image">FlashPlayerUpdateService.exe</Image>
+	<Image condition="image">mscorsvw.exe </Image>
+	<!-- Exclude SPLUNK -->
+	<Image condition="image">splunkd.exe</Image>
+	<Image condition="image">splunk-MonitorNoHandle.exe</Image>
+	<Image condition="image">splunk-regmon.exe</Image>
+	<Image condition="image">splunk-netmon.exe</Image>
+	<Image condition="image">splunk-powershell.exe</Image>
+	<Image condition="image">splunk-winprintmon.exe</Image>
+	<Image condition="image">splunk-admon.exe</Image>
+	<ImageLoaded condition="image">splunk-MonitorNoHandle.exe</ImageLoaded>
+	<ImageLoaded condition="image">splunk-admon.exe</ImageLoaded>
+	<ImageLoaded condition="image">splunk-winprintmon.exe</ImageLoaded>
+	<ImageLoaded condition="image">splunk-netmon.exe</ImageLoaded>
+	<ImageLoaded condition="image">splunk-regmon.exe</ImageLoaded>
+	<ImageLoaded condition="image">splunk-powershell.exe</ImageLoaded>
+	<!-- <Signed condition="is">true</Signed> -->
+	<Signature condition="contains">microsoft</Signature>
+    <Signature condition="contains">windows</Signature>
+	</ImageLoad>
+	<!-- Exclude Process Create ID 1 that are noisy -->
+    <ProcessCreate onmatch="exclude">
+	<Image condition="image">whosip.exe</Image>
+	<Image condition="image">wget64.exe</Image>
+	<Image condition="image">FlashPlayerUpdateService.exe</Image>
+	<Image condition="image">GoogleUpdate.exe</Image>
+	<Image condition="image">Conhost.exe</Image>
+	<Image condition="image">SearchFilterHost.exe</Image>
+	<Image condition="image">SearchProtocolHost.exe</Image>
+	<Image condition="is">C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe</Image>
+	<Image condition="is">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe </Image>
+	<!-- Exclude SPLUNK -->
+	<Image condition="image">splunk-admon.exe</Image>
+	<Image condition="image">splunk-MonitorNoHandle.exe</Image>
+	<Image condition="image">splunk-netmon.exe</Image>
+	<Image condition="image">splunk-regmon.exe</Image>
+	<Image condition="image">splunk-powershell.exe</Image>
+	<Image condition="image">splunk-winprintmon.exe</Image>
+	<Image condition="image">splunk-admon.exe</Image>
+	<!-- Exclude Command Line -->
+	<CommandLine condition="contains">system32\wbem\wmiprvse.exe -Embedding</CommandLine>
+	<CommandLine condition="contains">system32\mmc.exe" "C:\WINDOWS\system32\eventvwr.msc" /s</CommandLine>
+	<CommandLine condition="contains">windows defender\MpCmdRun.exe" SpyNetService -RestrictPrivileges -AccessKey</CommandLine>
+	<CommandLine condition="contains">--type=renderer --lang=en-US --force-fieldtrials="AffiliationBasedMatching/Enabled/AppBannerTriggering/Conservative/AsyncSetAsDefault/Enabled/AudioProcessing48kHzSupport/Default/*</CommandLine>
+	</ProcessCreate>
+  </EventFiltering>
+</Sysmon>

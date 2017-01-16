@@ -23,6 +23,10 @@ https://github.com/crypsisgroup/Splunkmon/edit/master/sysmon.cfg
 
 http://www.crypsisgroup.com/images/site/CG_WhitePaper_Splunkmon_1216.pdf
 
+**Sysmon_config.xml**
+
+https://www.malwarearchaeology.com/logging/
+
 
 # Resources
 
