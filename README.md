@@ -44,6 +44,8 @@ Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
 
 http://security-research.dyndns.org/pub/slides/BotConf/2016/Botconf-2016_Tom-Ueltschi_Sysmon.pdf
 
+https://securitylogsdotorg.files.wordpress.com/2017/01/sysmon-2017-16-1.pdf
+
 http://www.paul-sec.com/client-monitoring.html
 
 https://www.rsaconference.com/writable/presentations/file_upload/hta-w05-tracking_hackers_on_your_network_with_sysinternals_sysmon.pdf
