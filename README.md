@@ -27,6 +27,10 @@ http://www.crypsisgroup.com/images/site/CG_WhitePaper_Splunkmon_1216.pdf
 
 https://decentsecurity.com/enterprise/#/sysmon-enterprise-configuration/
 
+**Sysmon-d.cfg**
+
+http://909research.com/sysmon-the-best-free-windows-monitoring-tool-you-arent-using/
+
 **Sysmon_config.xml**
 
 https://www.malwarearchaeology.com/logging/
