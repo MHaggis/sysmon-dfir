@@ -31,6 +31,12 @@ https://decentsecurity.com/enterprise/#/sysmon-enterprise-configuration/
 
 http://909research.com/sysmon-the-best-free-windows-monitoring-tool-you-arent-using/
 
+**Sysmon-e.cfg**
+
+https://github.com/Prevenity/sysmon
+
+(Translated comments to english)
+
 **Sysmon_config.xml**
 
 https://www.malwarearchaeology.com/logging/
