@@ -21,8 +21,10 @@ sysmon.exe -accepteula -i sysmonconfig-export.xml
 
 ### Update existing configuration ###
 Run with administrator rights
-~~~~
+
 sysmon.exe -c sysmonconfig-export.xml
+
+### Configs ###
 
 **Sysmon-a.cfg**
 
