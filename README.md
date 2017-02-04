@@ -72,6 +72,8 @@ Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
 
 http://security-research.dyndns.org/pub/slides/BotConf/2016/Botconf-2016_Tom-Ueltschi_Sysmon.pdf
 
+[Advanced Incident Detection and Threat Hunting using Sysmon and Splunk - Tom Ueltschi](https://youtu.be/vv_VXntQTpE)
+
 https://securitylogsdotorg.files.wordpress.com/2017/01/sysmon-2017-16-1.pdf
 
 http://www.paul-sec.com/client-monitoring.html
