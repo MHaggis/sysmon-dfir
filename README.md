@@ -5,7 +5,7 @@ Sources, configuration and how to detect evil things utilizing Microsoft Sysmon.
 
 To install Sysmon, use the following command:
 
-    Sysmon.exe -i -h MD5,IMPHASH -n
+    Sysmon.exe -i -h MD5,IMPHASH -n -l
 
 After installation, load the custom configuration file with the following command:
 
@@ -26,38 +26,54 @@ sysmon.exe -c sysmonconfig-export.xml
 
 ### Configs ###
 
-**Sysmon-a.cfg**
+**@SwiftOnSecurity config**
 
-http://www.blacklanternsecurity.com/blog/2016/12/11/sysmon-woes-elasticsearch-and-mitres-attack-matrix/
+Recommended.
 
-**Sysmon-b.cfg**
-
-https://github.com/crypsisgroup/Splunkmon/edit/master/sysmon.cfg
-
-http://www.crypsisgroup.com/images/site/CG_WhitePaper_Splunkmon_1216.pdf
-
-**Sysmon-c.cfg**
-
-https://decentsecurity.com/enterprise/#/sysmon-enterprise-configuration/
-
-**@SwiftOnSecurity Updated config**
+Config will assist with bringing you up to speed in relation to critical process monitoring, network utilization, and so on. Note that the concept is to not log everything, but the most important items.
 
 https://github.com/SwiftOnSecurity/sysmon-config
 
+**Sysmon_config.xml**
+
+Solid, detailed config. Probably one of the best ones out there in relation to completeness.
+
+[MalwareArchaeology](https://www.malwarearchaeology.com/logging/)
+
+**Sysmon-a.cfg**
+
+Basic config that will monitor critical Windows process execution. Very basic, but a good config to get used to sysmon and how things operate.
+
+[Blog post by blacklanternsecurity](http://www.blacklanternsecurity.com/blog/2016/12/11/sysmon-woes-elasticsearch-and-mitres-attack-matrix/)
+
+**Sysmon-b.cfg**
+
+Crypsis Group published config and PDF. Fairly detailed list of excludes that should assist with understanding how they work and get a configuration started.
+
+[Crypsis Group Config](https://github.com/crypsisgroup/Splunkmon/edit/master/sysmon.cfg)
+
+[Crypsis Group PDF](http://www.crypsisgroup.com/images/site/CG_WhitePaper_Splunkmon_1216.pdf)
+
+**Sysmon-c.cfg**
+
+Great configuration to understand excludes and contains.
+
+[Decent Security Config](https://decentsecurity.com/enterprise/#/sysmon-enterprise-configuration/)
 
 **Sysmon-d.cfg**
 
-http://909research.com/sysmon-the-best-free-windows-monitoring-tool-you-arent-using/
+Solid blog post related to getting started with Sysmon. Config is nicely laid out and easy to understand.
+
+[909Research Blog](http://909research.com/sysmon-the-best-free-windows-monitoring-tool-you-arent-using/)
 
 **Sysmon-e.cfg**
+
+Config is specific but it provides a good foundation for capturing a lot of specific data.
 
 https://github.com/Prevenity/sysmon
 
 (Translated comments to english)
 
-**Sysmon_config.xml**
-
-https://www.malwarearchaeology.com/logging/
 
 **Additional configs**
 
@@ -70,9 +86,9 @@ Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
 
 # Resources
 
-http://security-research.dyndns.org/pub/slides/BotConf/2016/Botconf-2016_Tom-Ueltschi_Sysmon.pdf
+[Advanced Incident Detection and Threat Hunting using Sysmon and Splunk Video - Tom Ueltschi](https://youtu.be/vv_VXntQTpE)
 
-[Advanced Incident Detection and Threat Hunting using Sysmon and Splunk - Tom Ueltschi](https://youtu.be/vv_VXntQTpE)
+[Advanced Incident Detection and Threat Hunting using Sysmon and Splunk Slides - Tom Ueltschi](http://security-research.dyndns.org/pub/slides/BotConf/2016/Botconf-2016_Tom-Ueltschi_Sysmon.pdf)
 
 https://securitylogsdotorg.files.wordpress.com/2017/01/sysmon-2017-16-1.pdf
 
