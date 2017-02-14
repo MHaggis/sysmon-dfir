@@ -90,30 +90,28 @@ Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
 
 [Advanced Incident Detection and Threat Hunting using Sysmon and Splunk Slides - Tom Ueltschi](http://security-research.dyndns.org/pub/slides/BotConf/2016/Botconf-2016_Tom-Ueltschi_Sysmon.pdf)
 
-https://securitylogsdotorg.files.wordpress.com/2017/01/sysmon-2017-16-1.pdf
+[Microsoft Sysmon Deployment - @dmargaritis](https://securitylogsdotorg.files.wordpress.com/2017/01/sysmon-2017-16-1.pdf)
 
-http://www.paul-sec.com/client-monitoring.html
+[Sysinternals New Tool Sysmon (System Monitor) - Carlos Perez](http://www.darkoperator.com/blog/2014/8/8/sysinternals-sysmon)
 
-https://www.rsaconference.com/writable/presentations/file_upload/hta-w05-tracking_hackers_on_your_network_with_sysinternals_sysmon.pdf
+[Splunkmon — Taking Sysmon to the Next Level- The Crypsis Group](http://www.crypsisgroup.com/images/site/CG_WhitePaper_Splunkmon_1216.pdf)
 
-http://www.incidentresponderblog.com/2016/09/detecting-lateral-movement-using-sysmon.html
+[How to Go from Responding to Hunting with Sysinternals Sysmon - Mark Russinovich](https://onedrive.live.com/view.aspx?resid=D026B4699190F1E6!2843&ithint=file%2cpptx&app=PowerPoint&authkey=!AMvCRTKB_V1J5ow)
 
-http://www.blacklanternsecurity.com/blog/2016/12/11/sysmon-woes-elasticsearch-and-mitres-attack-matrix/
+[Tracking Hackers on Your Network with Sysinternals Sysmon - Mark Russinovich](https://www.rsaconference.com/writable/presentations/file_upload/hta-w05-tracking_hackers_on_your_network_with_sysinternals_sysmon.pdf)
 
-http://www.darkoperator.com/blog/2014/8/8/sysinternals-sysmon
+[Detecting Lateral Movement Using Sysmon and Splunk - David French](http://www.incidentresponderblog.com/2016/09/detecting-lateral-movement-using-sysmon.html)
 
-https://github.com/darkoperator/Posh-Sysmon
+[Sysmon Woes, Elasticsearch and MITRE’s ATT&CK Matrix - Black Lantern Security](http://www.blacklanternsecurity.com/blog/2016/12/11/sysmon-woes-elasticsearch-and-mitres-attack-matrix/)
 
-https://github.com/JamesHabben/sysmon-queries
+[Parsing Sysmon Events for IR Indicators - CrowdStrike](https://www.crowdstrike.com/blog/sysmon-2/)
 
-https://www.crowdstrike.com/blog/sysmon-2/
+[Detecting Advanced Threats with Sysmon, WEF and ElasticSearch - Joshua Lewis](https://joshuadlewis.blogspot.com/2014/10/advanced-threat-detection-with-sysmon_74.html)
 
-https://joshuadlewis.blogspot.com/2014/10/advanced-threat-detection-with-sysmon_74.html
+[Powershell Sysmon - GitHub - Carlos Perez](https://github.com/darkoperator/Posh-Sysmon)
 
-https://dfir-blog.com/2015/10/11/protecting-windows-networks-essential-logging/
+[Sysmon queries - GitHub - James Habben](https://github.com/JamesHabben/sysmon-queries)
 
-http://www.crypsisgroup.com/images/site/CG_WhitePaper_Splunkmon_1216.pdf
+[Splunk TA for Sysmon - GitHub - @daveherrald](https://github.com/splunk/TA-microsoft-sysmon)
 
-https://github.com/splunk/TA-microsoft-sysmon
-
-https://github.com/crypsisgroup/Splunkmon
+[SplunkMon cofiguration - GitHub - The Crypsis Group](https://github.com/crypsisgroup/Splunkmon)
