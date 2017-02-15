@@ -74,6 +74,13 @@ https://github.com/Prevenity/sysmon
 
 (Translated comments to english)
 
+**Sysmoncfg_v2|31.xml**
+
+Related material from Splunking the Endpoint .conf talk by James Brodsky and Dimitri McKay.
+
+[Splunking the Endpoint - Files from presentation](https://splunk.app.box.com/v/splunking-the-endpoint)
+
+Configs are optimized for Splunk. 
 
 **Additional configs**
 
@@ -89,6 +96,10 @@ Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
 [Advanced Incident Detection and Threat Hunting using Sysmon and Splunk Video - Tom Ueltschi](https://youtu.be/vv_VXntQTpE)
 
 [Advanced Incident Detection and Threat Hunting using Sysmon and Splunk Slides - Tom Ueltschi](http://security-research.dyndns.org/pub/slides/BotConf/2016/Botconf-2016_Tom-Ueltschi_Sysmon.pdf)
+
+[Splunking	the	Endpoint - James Brodsky](https://conf.splunk.com/session/2015/conf2015_Jbrodsky_Splunk_SecurityComplinace_SplunkingTheEndpoint_FINAL.pdf)
+
+[Splunking the Endpoint: “Hands on!” Ransomware	Edition - James Brodsky & Dimitri McKay](https://conf.splunk.com/files/2016/slides/splunking-the-endpoint-hands-on.pdf)
 
 [Microsoft Sysmon Deployment - @dmargaritis](https://securitylogsdotorg.files.wordpress.com/2017/01/sysmon-2017-16-1.pdf)
 
