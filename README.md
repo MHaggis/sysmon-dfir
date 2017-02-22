@@ -7,17 +7,13 @@ To install Sysmon, use the following command:
 
     Sysmon.exe -i -h MD5,IMPHASH -n -l
 
-After installation, load the custom configuration file with the following command:
-
-    Sysmon.exe -c sysmon.cfg
-
-Upon installation, Sysmon will begin logging events to the operational event log “C:\Windows\System32\ winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx”.
-
-### Install ###
+### Install config ###
 Run with administrator rights
 ~~~~
 sysmon.exe -accepteula -i sysmonconfig-export.xml
 ~~~~
+
+Upon installation, Sysmon will begin logging events to the operational event log “C:\Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx”.
 
 ### Update existing configuration ###
 Run with administrator rights
@@ -80,7 +76,7 @@ Related material from Splunking the Endpoint .conf talk by James Brodsky and Dim
 
 [Splunking the Endpoint - Files from presentation](https://splunk.app.box.com/v/splunking-the-endpoint)
 
-Configs are optimized for Splunk. 
+Configs are optimized for Splunk.
 
 **Additional configs**
 
@@ -106,6 +102,8 @@ Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
 [Sysinternals New Tool Sysmon (System Monitor) - Carlos Perez](http://www.darkoperator.com/blog/2014/8/8/sysinternals-sysmon)
 
 [Splunkmon — Taking Sysmon to the Next Level- The Crypsis Group](http://www.crypsisgroup.com/images/site/CG_WhitePaper_Splunkmon_1216.pdf)
+
+[Putting attackers in hi vis jackets with sysmon - Adrian Shaw](https://labs.nettitude.com/blog/putting-attackers-in-hi-vis-jackets-with-sysmon/)
 
 [How to Go from Responding to Hunting with Sysinternals Sysmon - Mark Russinovich](https://onedrive.live.com/view.aspx?resid=D026B4699190F1E6!2843&ithint=file%2cpptx&app=PowerPoint&authkey=!AMvCRTKB_V1J5ow)
 
