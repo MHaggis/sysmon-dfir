@@ -15,6 +15,12 @@ sysmon.exe -accepteula -i sysmonconfig-export.xml
 
 Upon installation, Sysmon will begin logging events to the operational event log “C:\Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx”.
 
+### Bat Install Sysmon ###
+
+Provided by Ion-Storm
+
+(Sysmon.bat)[https://github.com/ion-storm/sysmon-config/blob/master/Install%20Sysmon.bat]
+
 ### Update existing configuration ###
 Run with administrator rights
 
@@ -90,6 +96,8 @@ Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
 
 
 # Resources
+
+[Ion-Storm Graylog App](https://github.com/ion-storm/sysmon-config)
 
 [Advanced Incident Detection and Threat Hunting using Sysmon and Splunk Video - Tom Ueltschi](https://youtu.be/vv_VXntQTpE)
 
