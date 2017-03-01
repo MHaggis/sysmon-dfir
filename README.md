@@ -25,7 +25,7 @@ Upon installation, Sysmon will begin logging events to the operational event log
 ### Update existing configuration ###
 Run with administrator rights
 
-sysmon.exe -c sysmonconfig-export.xml
+    sysmon.exe -c sysmonconfig-export.xml
 
 ### Configs ###
 
