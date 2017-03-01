@@ -15,11 +15,12 @@ sysmon.exe -accepteula -i sysmonconfig-export.xml
 
 Upon installation, Sysmon will begin logging events to the operational event log “C:\Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx”.
 
-### Bat Install Sysmon ###
+### Deploy Sysmon ###
 
-Provided by Ion-Storm
+[Sysmon.bat - Ion-Storm](https://github.com/ion-storm/sysmon-config/blob/master/Install%20Sysmon.bat)
 
-(Sysmon.bat)[https://github.com/ion-storm/sysmon-config/blob/master/Install%20Sysmon.bat]
+
+[Deploying Sysmon through Group Policy - Pablo Delgado](http://syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/)
 
 ### Update existing configuration ###
 Run with administrator rights
