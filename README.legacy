@@ -133,9 +133,6 @@ Client config: https://gist.github.com/Neo23x0/f56bea38d95040b70cf5
 [Detecting Advanced Threats with Sysmon, WEF and ElasticSearch - Joshua Lewis](https://joshuadlewis.blogspot.com/2014/10/advanced-threat-detection-with-sysmon_74.html)
 
 [Powershell Sysmon - GitHub - Carlos Perez](https://github.com/darkoperator/Posh-Sysmon)
-
 [Sysmon queries - GitHub - James Habben](https://github.com/JamesHabben/sysmon-queries)
-
 [Splunk TA for Sysmon - GitHub - @daveherrald](https://github.com/splunk/TA-microsoft-sysmon)
-
 [SplunkMon cofiguration - GitHub - The Crypsis Group](https://github.com/crypsisgroup/Splunkmon)
