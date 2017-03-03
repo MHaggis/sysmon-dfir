@@ -27,7 +27,7 @@ A curated list of resources for learning about deploying, managing and hunting w
       * [Deploying Sysmon through Group Policy - Pablo Delgado](http://syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/)
     * [Sysmon Configuration Files](#sysmon-configuration)
       * [SwiftOnSecurity Sysmon Configuration](https://github.com/SwiftOnSecurity/sysmon-config)
-      * [SwiftOnSecurity Fork by Ion-Storm](https://github.com/ion-storm/sysmon-config/blob/master/sysmonconfig-export.xml)
+      * [Ion-Storm Graylog App and Sysmon Configuration](https://github.com/ion-storm/sysmon-config/blob/master/sysmonconfig-export.xml)
       * [909Research Blog](http://909research.com/sysmon-the-best-free-windows-monitoring-tool-you-arent-using/)
       * [Decent Security Config](https://decentsecurity.com/enterprise/#/sysmon-enterprise-configuration/)
       * [MalwareArchaeology](https://www.malwarearchaeology.com/logging/)
