@@ -17,6 +17,8 @@ A curated list of resources for learning about deploying, managing and hunting w
     * [Graylog](#graylog)
       * [Ion-Storm Graylog App](https://github.com/ion-storm/sysmon-config)
       * [Back to Basics- Enhance Windows Security with Sysmon and Graylog - Jan Dobersten](https://www.graylog.org/blog/83-back-to-basics-enhance-windows-security-with-sysmon-and-graylog)
+    * [ELK](#ELK)
+      * [Building a Sysmon Dashboard with an ELK Stack - Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/building-sysmon-dashboard-with-elk-stack.html?m=1)
     * [Splunk](#splunk)
       * [Splunk App to assist Sysmon Threat Hunting - Mike Haag](https://github.com/MHaggis/app_splunk_sysmon_hunter)
       * [Splunking the Endpoint - Files from presentation](https://splunk.app.box.com/v/splunking-the-endpoint)
