@@ -22,6 +22,8 @@ A curated list of resources for learning about deploying, managing and hunting w
     * [Splunk](#splunk)
       * [Splunk App to assist Sysmon Threat Hunting - Mike Haag](https://github.com/MHaggis/app_splunk_sysmon_hunter)
       * [Splunking the Endpoint - Files from presentation - James Brodsky & Dimitri McKay](https://splunk.app.box.com/v/splunking-the-endpoint)
+    * [RSA Netwitness](#RSAnw)
+      * [Log - Sysmon 6 Windows Event Collection - Eric Partington](https://community.rsa.com/community/products/netwitness/blog/authors/15EMaWGl7WJv0wnUDkDEBWb0qgWxB1SoVqC6uE9UbG8%3D)
     * [Deploy Sysmon](#deploy_sysmon)
       * [Sysmon.bat - Ion-Storm](https://github.com/ion-storm/sysmon-config/blob/master/Install%20Sysmon.bat)
       * [Deploying Sysmon through Group Policy - Pablo Delgado](http://syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/)
