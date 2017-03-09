@@ -34,6 +34,7 @@ A curated list of resources for learning about deploying, managing and hunting w
       * [Decent Security Config](https://decentsecurity.com/enterprise/#/sysmon-enterprise-configuration/)
       * [MalwareArchaeology](https://www.malwarearchaeology.com/logging/)
     * [Blogs](#Blogs)
+      * [Effectively analysing sysmon logs - Adrian Shaw](https://labs.nettitude.com/blog/effectively-analysing-sysmon-logs/)
       * [Explaining and adapting Tay’s Sysmon configuration - Lennart Koopmann](https://medium.com/@lennartkoopmann/explaining-and-adapting-tays-sysmon-configuration-27d9719a89a8#.9u01gmxgh)
       * [Detecting Lateral Movement Using Sysmon and Splunk - David French](http://www.incidentresponderblog.com/2016/09/detecting-lateral-movement-using-sysmon.html)
       * [Setting up Elasticsearch 5.x – Sending Windows Logs using WinLogbeat 5.x Part 2/3 - Pablo Delgado](http://syspanda.com/index.php/2017/02/07/setting-up-elasticsearch-5-x-sending-windows-logs-using-winlogbeat-5-x/)
