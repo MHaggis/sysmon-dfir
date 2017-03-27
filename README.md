@@ -111,6 +111,12 @@ https://github.com/Prevenity/sysmon
 
 (Translated comments to english)
 
+**StartLogging.xml**
+
+Provided by https://github.com/VVard0g - Roberto Rodriguez
+
+https://gist.github.com/VVard0g/136481552d8845e52962534d1a4b8664
+
 **Sysmoncfg_v2|31.xml**
 
 Related material from Splunking the Endpoint .conf talk by James Brodsky and Dimitri McKay.
