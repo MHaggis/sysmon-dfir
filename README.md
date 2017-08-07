@@ -40,6 +40,7 @@ A curated list of resources for learning about deploying, managing and hunting w
     * [Microsoft System Center](#Microsoft_SCOM)
       * [Microsoft System Center Advisor Sysmon Events collector - Microsoft.IntelligencePacks.Sysmon :: 7.0.11728.0 (Management Pack)](http://systemcentercore.com/?Get-ManagementPack=Microsoft.IntelligencePacks.Sysmon&Version=7.0.11728.0)
     * [Blogs](#Blogs)
+      * [Visualizing & Tracking Sysmon events with Sysmon View 1.2 - Nader Shalabi](https://nosecurecode.blog/2017/07/29/visualizing-tracking-sysmon-events-with-sysmon-view-1-2/)
       * [How To Do Endpoint Monitoring on a Shoestring Budget – Webcast Write-Up - Joff Thyer & Derek Banks](https://www.blackhillsinfosec.com/?p=6055)
       * [Detecting (Some) Malicious Office Documents Using Sysmon - @malwaresoup](https://www.malwaresoup.com/detecting-some-malicious-office-documents-using-sysmon/)
       * [Chronicles of a Threat Hunter: Hunting for WMImplant with Sysmon and ELK - Part I - Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for_26.html?m=1)
