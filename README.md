@@ -20,6 +20,8 @@ A curated list of resources for learning about deploying, managing and hunting w
       * [Back to Basics- Enhance Windows Security with Sysmon and Graylog - Jan Dobersten](https://www.graylog.org/blog/83-back-to-basics-enhance-windows-security-with-sysmon-and-graylog)
     * [ELK](#ELK)
       * [Building a Sysmon Dashboard with an ELK Stack - Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/building-sysmon-dashboard-with-elk-stack.html)
+    * [Neo4j](#Neo4j)
+      * [Sysmon and Neo4j - Andy(malwaresoup)](https://www.malwaresoup.com/sysmon-and-neo4j/)
     * [Splunk](#splunk)
       * [Sysmon App for Splunk - @Jarrettp & @MHaggis](https://splunkbase.splunk.com/app/3544/)
       * [Sysmon-Threat-Intel - App - Jarrett Polcari @jarrettp](https://github.com/kidcrash22/Sysmon-Threat-Intel)
