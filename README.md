@@ -8,7 +8,6 @@ A curated list of resources for learning about deploying, managing and hunting w
 
   * [General](#general)
     * [Presentations](#Presentations)
-      * [Detect the undetectable with Sysinternals Sysmon and Powershell logs - Dimitris Margaritis](https://securitylogsdotorg.files.wordpress.com/2017/06/bsides-athens-sysmon-final.pdf)
       * [How to Go from Responding to Hunting with Sysinternals Sysmon - Mark Russinovich](https://onedrive.live.com/view.aspx?resid=D026B4699190F1E6!2843&ithint=file%2cpptx&app=PowerPoint&authkey=!AMvCRTKB_V1J5ow)
       * [Tracking Hackers on Your Network with Sysinternals Sysmon - Mark Russinovich](https://www.rsaconference.com/writable/presentations/file_upload/hta-w05-tracking_hackers_on_your_network_with_sysinternals_sysmon.pdf)
       * [Advanced Incident Detection and Threat Hunting using Sysmon and Splunk Video - Tom Ueltschi](https://youtu.be/vv_VXntQTpE)
@@ -21,6 +20,7 @@ A curated list of resources for learning about deploying, managing and hunting w
     * [ELK](#ELK)
       * [Building a Sysmon Dashboard with an ELK Stack - Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/building-sysmon-dashboard-with-elk-stack.html)
     * [Splunk](#splunk)
+      * [TA-Sysmon-deploy - @olafhartong](https://github.com/olafhartong/TA-Sysmon-deploy)
       * [Sysmon App for Splunk - @Jarrettp & @MHaggis](https://splunkbase.splunk.com/app/3544/)
       * [Sysmon-Threat-Intel - App - Jarrett Polcari @jarrettp](https://github.com/kidcrash22/Sysmon-Threat-Intel)
       * [Splunk App to assist Sysmon Threat Hunting - Mike Haag](https://github.com/MHaggis/app_splunk_sysmon_hunter)
