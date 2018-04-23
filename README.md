@@ -20,6 +20,7 @@ A curated list of resources for learning about deploying, managing and hunting w
     * [ELK](#ELK)
       * [Building a Sysmon Dashboard with an ELK Stack - Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/building-sysmon-dashboard-with-elk-stack.html)
     * [Splunk](#splunk)
+      * [Sysmon FTW! - Tom Ueltschi](http://security-research.dyndns.org/pub/slides/BotConf/2017/BotConf2017_LT_Sysmon_FTW.pdf)
       * [TA-Sysmon-deploy - @olafhartong](https://github.com/olafhartong/TA-Sysmon-deploy)
       * [Sysmon App for Splunk - @Jarrettp & @MHaggis](https://splunkbase.splunk.com/app/3544/)
       * [Sysmon-Threat-Intel - App - Jarrett Polcari @jarrettp](https://github.com/kidcrash22/Sysmon-Threat-Intel)
