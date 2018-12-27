@@ -7,6 +7,8 @@ A curated list of resources for learning about deploying, managing and hunting w
 
 
   * [General](#general)
+    * [Utilities](#Utilities)
+      * [Sysmon Config Bypass Finder - @MartinKorman](https://github.com/mkorman90/sysmon-config-bypass-finder)
     * [Presentations](#Presentations)
       * [Advanced Incident Detection and Threat Hunting using Sysmon (and Splunk) -- 2018 - Tom Ueltschi](http://security-research.dyndns.org/pub/slides/FIRST-TC-2018/FIRST-TC-2018_Tom-Ueltschi_Sysmon_PUBLIC.pdf)
       * [How to Go from Responding to Hunting with Sysinternals Sysmon - Mark Russinovich](https://onedrive.live.com/view.aspx?resid=D026B4699190F1E6!2843&ithint=file%2cpptx&app=PowerPoint&authkey=!AMvCRTKB_V1J5ow)
