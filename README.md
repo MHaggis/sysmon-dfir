@@ -8,6 +8,7 @@ A curated list of resources for learning about deploying, managing and hunting w
 
   * [General](#general)
     * [Utilities](#Utilities)
+      * [Parse Sysmon logs - Matt Churchill, CrowdStrike](https://github.com/CrowdStrike/Forensics/tree/master/sysmon)
       * [Sysmon Config Bypass Finder - @MartinKorman](https://github.com/mkorman90/sysmon-config-bypass-finder)
     * [Presentations](#Presentations)
       * [Advanced Incident Detection and Threat Hunting using Sysmon (and Splunk) -- 2018 - Tom Ueltschi](http://security-research.dyndns.org/pub/slides/FIRST-TC-2018/FIRST-TC-2018_Tom-Ueltschi_Sysmon_PUBLIC.pdf)
