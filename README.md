@@ -8,6 +8,7 @@ A curated list of resources for learning about deploying, managing and hunting w
 
   * [General](#general)
     * [Utilities](#Utilities)
+      * [SysmonX - An Augmented Drop-In Replacement of Sysmon](https://github.com/marcosd4h/sysmonx)
       * [SysmonTools - Nader Shalabi](https://github.com/nshalabi/SysmonTools)
       * [Parse Sysmon logs - Matt Churchill, CrowdStrike](https://github.com/CrowdStrike/Forensics/tree/master/sysmon)
       * [Sysmon Config Bypass Finder - @MartinKorman](https://github.com/mkorman90/sysmon-config-bypass-finder)
