@@ -77,9 +77,11 @@ A curated list of resources for learning about deploying, managing and hunting w
 
 ## Sysmon Configuration
 
-**@SwiftOnSecurity config**
+**Sysmon-Modular**
 
-Recommended.
+[sysmon-modular | A Sysmon configuration repository for everybody to customize - @olafhartong](https://github.com/olafhartong/sysmon-modular)
+
+**@SwiftOnSecurity config**
 
 Config will assist with bringing you up to speed in relation to critical process monitoring, network utilization, and so on. Note that the concept is to not log everything, but the most important items.
 
@@ -127,9 +129,9 @@ https://github.com/Prevenity/sysmon
 
 **StartLogging.xml**
 
-Provided by https://github.com/VVard0g - Roberto Rodriguez
+Provided by https://github.com/Cyb3rWard0g - Roberto Rodriguez
 
-https://gist.github.com/VVard0g/136481552d8845e52962534d1a4b8664
+https://gist.github.com/Cyb3rWard0g/6f69475a667ef298d829370bd26ba8c2
 
 **Sysmoncfg_v2|31.xml**
 
