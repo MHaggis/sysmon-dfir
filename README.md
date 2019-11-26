@@ -27,7 +27,7 @@ A curated list of resources for learning about deploying, managing and hunting w
     * [Gravwell](#gravwell)
       * [Gravwell and Windows Event Logging](https://www.gravwell.io/blog/gravwell-and-windows-event-logging)
       * [Windows DNS Threat Hunting With Sysmon and Gravwell](https://www.gravwell.io/blog/windows-dns-threat-hunting-with-sysmon-and-gravwell)
-      * [Sysmon DNS Logging Video (Security Weekly Episode #608])](https://youtu.be/e_E6F1G6b88)
+      * [Sysmon DNS Logging Video (Security Weekly Episode #608)](https://youtu.be/e_E6F1G6b88)
     * [ELK](#ELK)
       * [Building a Sysmon Dashboard with an ELK Stack - Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/building-sysmon-dashboard-with-elk-stack.html)
     * [Splunk](#splunk)
