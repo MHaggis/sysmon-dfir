@@ -93,6 +93,12 @@ Config will assist with bringing you up to speed in relation to critical process
 
 https://github.com/SwiftOnSecurity/sysmon-config
 
+** Hunt Naked **
+
+Used for research purposes, this config enables everything with the latest version of Sysmon. This is a full throttle config. Happy Hunting.
+
+[Hunt Naked](https://github.com/MHaggis/sysmon-dfir/blob/master/config/hunt-naked.xml)
+
 **Sysmon_config.xml**
 
 Solid, detailed config. Probably one of the best ones out there in relation to completeness.
