@@ -45,6 +45,8 @@ A curated list of resources for learning about deploying, managing and hunting w
       * [Sysmon.bat - Ion-Storm](https://github.com/ion-storm/sysmon-config/blob/master/Install%20Sysmon.bat)
       * [Deploying Sysmon through Group Policy - Pablo Delgado](http://syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/)
     * [Sysmon Configuration Files](#sysmon-configuration)
+      * [@Neo23x0 Fork of SwiftOnSecurity Sysmon Config](https://github.com/Neo23x0/sysmon-config)
+      * [Ion-Storm Sysmon Config](https://github.com/ion-storm/sysmon-config/blob/master/sysmonconfig-export.xml)
       * [Sysmon Config files - Moti Bani @MotiBa](https://github.com/MotiBa/Sysmon)
       * [sysmon-modular | A Sysmon configuration repository for everybody to customize - @olafhartong](https://github.com/olafhartong/sysmon-modular)
       * [SwiftOnSecurity Sysmon Configuration](https://github.com/SwiftOnSecurity/sysmon-config)
