@@ -1,6 +1,9 @@
 # Sysmon - DFIR
 
-A curated list of resources for learning about deploying, managing and hunting with Microsoft Sysmon. Contains presentations, deployment methods, configuration file examples, blogs and additional github repositories.
+A curated and bespoke list of resources for learning about deploying, managing and hunting with Microsoft Sysmon. Contains presentations, deployment methods, configuration file examples, blogs and additional GitHub repositories.
+
+
+
 
 
 # Sysmon Learning Resources
@@ -78,6 +81,8 @@ A curated list of resources for learning about deploying, managing and hunting w
       * [Splunk TA for Sysmon - GitHub - @daveherrald](https://github.com/splunk/TA-microsoft-sysmon)
       * [SplunkMon cofiguration - GitHub - The Crypsis Group](https://github.com/crypsisgroup/Splunkmon)
       * [Desired State Configuration for Deploying/Maintaining Sysmon - GitHub - @AwfulyPrideful](https://github.com/NotAwful/Sysmon-DSC)
+      * [SysmonSimulator - Simulate the attacks to generate the Sysmon Event logs @ScarredMonk](https://github.com/ScarredMonk/SysmonSimulator)
+      * [SysmonParser - Automatically generated Sysmon parser for Azure Sentinel @olafhartong](https://github.com/olafhartong/sysmon-parser)
 
 
 
