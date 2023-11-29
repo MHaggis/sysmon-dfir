@@ -1,4 +1,4 @@
-<Sysmon schemaversion="4.81">
+<Sysmon schemaversion="4.90">
     <HashAlgorithms>md5,sha256</HashAlgorithms>
     <DnsLookup>False</DnsLookup>
     <CheckRevocation>False</CheckRevocation>
@@ -43,9 +43,11 @@
         <FileDelete onmatch="exclude"></FileDelete>
         <!--Event ID 24: ClipboardChange (New content in the clipboard)-->
         <ClipboardChange onmatch="exclude"></ClipboardChange>
-		<!--Event ID 25: ProcessTampering-->
-      <ProcessTampering onmatch="exclude"></ProcessTampering>
+	<!--Event ID 25: ProcessTampering-->
+        <ProcessTampering onmatch="exclude"></ProcessTampering>
         <!--Event ID 26: FileDeleteDetected -->
         <FileDeleteDetected onmatch="exclude"></FileDeleteDetected>
+	<!--Event ID 29: FileExecutableDetected -->
+	<FileExecutableDetected onmatch="exclude"></FileExecutableDetected>
     </EventFiltering>
 </Sysmon>
