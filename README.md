@@ -60,6 +60,7 @@ A curated and bespoke list of resources for learning about deploying, managing a
     * [Microsoft System Center](#Microsoft_SCOM)
       * [Microsoft System Center Advisor Sysmon Events collector - Microsoft.IntelligencePacks.Sysmon :: 7.0.11728.0 (Management Pack)](http://systemcentercore.com/?Get-ManagementPack=Microsoft.IntelligencePacks.Sysmon&Version=7.0.11728.0)
     * [Blogs](#Blogs)
+      * [Learning Sysmon - Videos 1-10 Written by Carlos Perez](https://trustedsec.com/blog/learning-sysmon-videos-1-10)
       * [Detecting (Some) Malicious Office Documents Using Sysmon - @malwaresoup](https://www.malwaresoup.com/detecting-some-malicious-office-documents-using-sysmon/)
       * [Chronicles of a Threat Hunter: Hunting for WMImplant with Sysmon and ELK - Part I - Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for_26.html?m=1)
       * [Chronicles of a Threat Hunter: Hunting for In-Memory Mimikatz with Sysmon and ELK - Part I (Event ID 7) - Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html)
