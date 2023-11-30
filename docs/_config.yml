@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A curated and bespoke list of resources for learning about deploying, managing 
   and hunting with Microsoft Sysmon. Contains presentations, deployment methods, 
   configuration file examples, blogs and additional GitHub repositories.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/sysmon-dfir" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: M_Haggis
 github_username:  MHaggis
