@@ -5,4 +5,4 @@
 layout: home
 ---
 
-<img src="/assets/images/sysmondfir.png" alt="SYSMON DFIR" class="center-image">
+<img src="assets/images/sysmondfir.png" alt="SYSMON DFIR" class="center-image">
