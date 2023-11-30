@@ -5,4 +5,5 @@
 layout: home
 ---
 
-![Alt text](assets/images/sysmondfir.png)
+![Sysmon DFIR]({{ 'assets/images/sysmondfir.png' | prepend: site.baseurl }})
+
