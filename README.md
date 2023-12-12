@@ -3,7 +3,7 @@
 A curated and bespoke list of resources for learning about deploying, managing and hunting with Microsoft Sysmon. Contains presentations, deployment methods, configuration file examples, blogs and additional GitHub repositories.
 
 
-
+You can now breeze through most of the content here: https://mhaggis.github.io/sysmon-dfir/
 
 
 # Sysmon Learning Resources
